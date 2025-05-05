@@ -1,0 +1,212 @@
+.bubble {
+    position: absolute; /* Permet de positionner les bulles par rapport à leur conteneur */
+    z-index: -1; /* Place les bulles en arrière-plan */
+  }
+  
+  /* S'assurer que les autres éléments restent au-dessus des bulles */
+  .silder, .card-item {
+    position: relative; /* Nécessaire pour définir un z-index */
+    z-index: 1; /* Plus élevé que -1 pour que ces éléments soient au-dessus des bulles */
+  }
+  
+  .bubble {
+    position: absolute;
+    z-index: -1; /* Pour être en arrière-plan */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  /* 5 bulles à gauche */
+  .bubble1 { top: 5%; left: 10%; }
+  .bubble2 { top: 15%; left: 20%; }
+  .bubble3 { top: 35%; left: 5%; }
+  .bubble4 { top: 55%; left: 15%; }
+  .bubble5 { bottom: 10%; left: 10%; }
+  
+  /* 15 bulles à droite */
+  .bubble6 { top: 10%; right: 5%; }
+  .bubble7 { top: 20%; right: 15%; }
+  .bubble8 { top: 30%; right: 10%; }
+  .bubble9 { top: 40%; right: 20%; }
+  .bubble10 { top: 50%; right: 5%; }
+  .bubble11 { top: 60%; right: 10%; }
+  .bubble12 { top: 70%; right: 15%; }
+  .bubble13 { top: 80%; right: 5%; }
+  .bubble14 { top: 90%; right: 20%; }
+  .bubble15 { bottom: 5%; right: 15%; }
+  .bubble16 { bottom: 15%; right: 10%; }
+  .bubble17 { bottom: 25%; right: 5%; }
+  .bubble18 { bottom: 35%; right: 20%; }
+  .bubble19 { bottom: 45%; right: 10%; }
+  .bubble20 { bottom: 55%; right: 15%; }
+  
+
+
+
+
+
+  /* login */
+
+
+  /* From Uiverse.io by Praashoo7 */ 
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top:4rem;
+  /* margin-left: 25rem; */
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color:white;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+}
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid rgb(67, 2, 2);
+}
+
+#heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(62, 3, 3);
+  font-size: 1.2em;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #2f0404;
+  box-shadow: inset 2px 5px 10px rgb(34, 1, 1);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #310505;
+  color: white;
+}
+
+.button1:hover {
+  background-color: rgb(44, 3, 3);
+  color: white;
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #1a0202;
+  color: white;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #320404;
+  color: white;
+}
+
+.button3:hover {
+  background-color: rgb(93, 55, 55);
+  color: rgb(253, 253, 253);
+}
+
+
+
+
+/* From Uiverse.io by Yaya12085 */ 
+.custum-file-upload {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+}
+
+.custum-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .icon svg {
+  height: 80px;
+  fill: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .text span {
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload input {
+  display: none;
+}
