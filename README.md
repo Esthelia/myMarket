@@ -1,1 +1,3 @@
 # myMarket
+
+L'application de gestion de marché MYMARKET est une plateforme numérique dédiée à la commande et à la vente de produits frais tels que les légumes, les fruits, les épices, et autres denrées alimentaires du marché. Elle permet aux utilisateurs (clients) de consulter les articles disponibles, de passer leurs commandes en ligne, et aux commerçants de gérer leur stock, leurs ventes et leurs livraisons. L'objectif principal est de moderniser l'accès aux produits de marché en facilitant les échanges entre vendeurs et acheteurs, tout en offrant un gain de temps, de confort et d'organisation.
